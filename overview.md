@@ -5,7 +5,7 @@
 
 Typical installation would look like this.
 
-<nice_image.png>
+`<nice_image.png>`
 
 Node server runs cocaine-runtime with `node` and `locator`
 services. `node` service downloads and start

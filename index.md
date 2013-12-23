@@ -1,24 +1,23 @@
 
-
 # Intro
 # Overview
 # Services
 # Frameworks
 # cocaine-tool
-# native-proxy
+# cocaine http proxy
 # IPVS gateway
 # Elliptics storage
 
-
+# Nodejs framework
 # Nodejs quick start
-# Debugging
-# Logging app events
-# Setting up vagrant environment
-# Setting up cocaine locally/devserver
-# base Nodejs container
-# application build process
+# Nodejs development environment
 
+# Using cocaine-vagrant
+# Setting up cocaine locally/on devserver
 
-
-
+# APE
+## workflow overview
+## application build process
+## base Nodejs container
+## buildpacks
 

@@ -1,7 +1,0 @@
-
-# gateway
-
-## requirements
-
-## IPVS gateway
-

@@ -1,7 +1,0 @@
-
-# storage
-
-## methods
-
-## elliptics storage
-
