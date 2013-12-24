@@ -82,7 +82,7 @@ on local socket designated for app worker processes.
 1. cluster Node starts designated invocation service, which listens
 for incoming requests, with the name of started app, and registers it
 with local locator.
-1. local locator sends a chunk with app service metadata to all of its
+1. local locator sends a chunk containing app service metadata to all of its
 established synchronize streams.
 
 ### First, cold Request for a recently started app.
@@ -94,7 +94,7 @@ and sends request to worker as usual (see [A]).
 
 ### Spawning Slave Worker Process
 
-App pause.
+### App is paused.
 
 
 

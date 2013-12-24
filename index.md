@@ -2,6 +2,7 @@
 # Intro
 # Overview
 # Services
+# Apps
 # Frameworks
 # cocaine-tool
 # cocaine http proxy

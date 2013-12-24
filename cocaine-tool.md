@@ -18,6 +18,13 @@ Also, it allows to manually resolve services and call service's methods.
 ## Cases and Examples
 
 Upload app, start it, get it's info.
+```
+cocaine-tool app upload --name <app-name> --manifest <path/to/manifest> --package <path/to.tgz>
+```
+Here, app-name is an identifier by which app would be known to the
+cloud. Manifest 
+
+
 
 Modify runlist.
 
