@@ -6,7 +6,7 @@
 So one can interact with cocaine environment and all of it's
 components by exchange of messages. To help developers develop their
 apps quickly and be compliant with requirements of cocaine
-environment, there are frameworks for languages. Basicly, framework
+environment, there are frameworks for languages. Basically, framework
 gives the developer means to interact as a client with any service, or
 helps to run her code in the cloud. It helps to interact with various
 conditions such as session handling and lifetime events like termination.
@@ -26,7 +26,7 @@ cocaine-runtime.
 
 ## Worker requirements
 
-Here are requirements for any code that wants to implement behaving
+Here are the requirements for any code that wants to implement behaving
 worker under cocaine-runtime management.
 
 1. Overview
