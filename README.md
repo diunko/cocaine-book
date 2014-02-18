@@ -1,7 +1,7 @@
 
 # Various Topics On Cocaine
 
-[index.md](English version) is sparse and incomplete.
+[English version](index.md) is sparse and incomplete.
 
-[ru/index.md](Русская версия) is more recent and detailed.
+[Русская версия](ru/index.md) is more recent and detailed.
 
