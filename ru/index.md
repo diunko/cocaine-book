@@ -1,5 +1,5 @@
 
-# [intro.md](Введение)
+# [Введение](intro.md)
 
 ## Actor Model
 ## Cocaine Messages and Actors
@@ -8,7 +8,7 @@
 ## Apps and Services
 
 
-# [setup-overview.md](Setup Overview)
+# [Setup Overview](setup-overview.md)
 
 ## Big Picture
 ## Node Box
@@ -19,7 +19,7 @@
 ## ElasticSearch cluster
 
 
-# [processes-overview.md](Processes Overview)
+# [Processes Overview](processes-overview.md)
 
 ## Regular App Deployment
 ### process isolate
