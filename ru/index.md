@@ -32,7 +32,7 @@
 ### App Request Handling
 
 
-# [services-overview.md](Services Overview)
+# [Services Overview](services-overview.md)
 
 ## Storage
 ## Logging
@@ -41,7 +41,7 @@
 ## Langdetect
 
 
-# [technical-details.md](Technical details)
+# [Technical details](technical-details.md)
 
 ## Frameworks
 
@@ -58,7 +58,7 @@
 
 ## NodeJS
 
-### [nodejs-framework.md](Framework)
+### [Framework](nodejs-framework.md)
 
 #### Overview
 
@@ -67,14 +67,14 @@
 #### Service
 
 
-### [nodejs-development-environment.md](Development Environment)
+### [Development Environment](nodejs-development-environment.md)
 
 #### cocaine-vagrant
 #### building on linux
 #### building on os x
 #### setting up nginx and rewrites
 
-### [nodejs-guides.md](Examples, Guides and Best Practices)
+### [Examples, Guides and Best Practices](nodejs-guides.md)
 
 #### simple app
 #### use simple service: storage
