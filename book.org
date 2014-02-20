@@ -93,17 +93,17 @@
 - [ ] push
 - [ ] Dockerfile
 
-* TODO APE.sh Details
-** TODO buildstep (basic container)
-** TODO heroku-buildpack-nodejs
-** TODO ape
-- [ ] git-*
-- [ ] git-hook
-- [ ] build
-- [ ] status
-- [ ] start
-- [ ] stop
-- [ ] delete
+* DONE APE.sh Details [3/3]
+** DONE buildstep (basic container)
+** DONE heroku-buildpack-nodejs
+** DONE ape [7/7]
+- [X] git-*
+- [X] git-hook
+- [X] build
+- [X] status
+- [X] start
+- [X] stop
+- [X] delete
 
 * TODO NodeJS [0/3]
 
