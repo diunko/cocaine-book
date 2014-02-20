@@ -31,24 +31,23 @@
 - [X] handle requests
 - [X] stop
 - [X] remove
-
-*** DONE docker isolate [6/7]
-- [X] prerequisites
-- [ ] version management notes
+*** DONE docker isolate [5/5]
 - [X] upload
 - [X] start
 - [X] handle requests
 - [X] stop
 - [X] remove
 
-** DONE Deployment Through ape.sh [5/5]
+** DONE Deployment Through ape.sh [7/7]
+- [X] prerequisites
+- [X] version management notes
 - [X] upload
 - [X] start
 - [X] request handling
 - [X] stop
 - [X] remove
 
-** TODO Request Handling And Balancing [0/3]
+** TODO Request Handling And Balancing From Start To End [0/3]
 - [ ] at LoadBalancer
 - [ ] at Node
 - [ ] at Worker
@@ -70,17 +69,16 @@
 - [ ] logger
 
 
-* TODO Technical details [0/5]
+* TODO Technical Details [0/5]
 
+** TODO Frameworks
+*** TODO Worker lifecycle
+*** TODO Client requirements
 ** Request balancing
 - [ ] IPVS
 - [ ] engine::balance
 ** TODO Special Capabilities
 - [ ] Routing groups
-
-** TODO Frameworks
-*** TODO Worker lifecycle
-*** TODO Client requirements
 
 ** TODO cocaine-tool
 
