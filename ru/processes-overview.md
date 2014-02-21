@@ -26,9 +26,9 @@ cocaine-tool app upload \
 доступным для запуска. Точнее, она делает такие две вещи. 
 
 1. Читает манифест, запаковывает его msgpack'ом, и сохраняет в
-сервис storage, по ключу manifests::<app-name> (здесь manifests -- collection, а
+сервис storage, по ключу `manifests::<app-name>` (здесь manifests -- collection, а
 <app-name> - имя ключа).
-1. Архив с приложением сохраняет в storage в apps::<app-name>.
+1. Архив с приложением сохраняет в storage в `apps::<app-name>`.
 
 Используется сконфигурированный сервис storage той ноды, на которой
 выполняется команда cocaine-tool. Или тот, который указан в команде явно.
@@ -49,15 +49,16 @@ cocaine-tool app start \
 ```
 [start_app, <sid>, [{<app-name>:<profile-name>}]]
 ```
+
 Тогда сервис node читает профиль из сервиса storage (по ключу
-profiles::<profile-name>), и указанным там изолятом скачивает и
+`profiles::<profile-name>`), и указанным там изолятом скачивает и
 устанавливает приложение локально (это делает метод
 isolate::spool). Isolate по умолчанию -- process, и 
 его spool читает загруженный ранее архив приложения из
-apps::<app-name> из стореджа, и распаковывает его в <spool>/<app-name>/
+apps::<app-name> из стореджа, и распаковывает его в `<spool>/<app-name>/`
 (<spool> берется из конфига на данной ноде).
 Кроме этого, на этой ноде запускается invocation service с именем
-<app-name>, а также запускается engine приложения с пустой очередью
+`<app-name>`, а также запускается engine приложения с пустой очередью
 входящих сообщений и 0 запущенных workers.
 
 Запущенный сервис аннонсится всем клиентам locator::synchronize, и с
