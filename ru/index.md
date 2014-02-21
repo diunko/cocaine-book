@@ -55,6 +55,7 @@
 
 ## IPVS plugin
 
+## [APE build flow details](ape-details.md)
 
 ## NodeJS
 
