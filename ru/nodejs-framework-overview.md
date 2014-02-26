@@ -83,6 +83,6 @@ TBD later; see [JS layer](#js-layer) for now
          tcp guy to her.
 
 
-For further details, see [commented source guide](commented-source.md)
+For further details, see [detailed guide](nodejs-framework-detained.md)
 
 
