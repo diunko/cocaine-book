@@ -30,10 +30,10 @@ TBD later; see [JS layer](#js-layer) for now
       * `fsm.js` `FSM` metaclass, implements handlers switching, state
         invariants checks, etc.
       * `session.js` is a Stream wrapper for Cocaine sessions.
-         * `session1.js` srteams1 (pre- node 0.10 streams) implementation
-            for the above wrapper.
-         * `session2.js` streams2 (node 0.10 streams) sessions
-           implementation.
+        * `session1.js` srteams1 (pre- node 0.10 streams) implementation
+           for the above wrapper.
+        * `session2.js` streams2 (node 0.10 streams) sessions
+          implementation.
     * `./` and other useful, but not that crucial stuff:
       * `util.js` -- some helpers here; `errno.js` -- big errno dict adapted
         from `<sys/errno.h>`; `protocol.js` -- protocol tables, adapted
