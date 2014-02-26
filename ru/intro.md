@@ -164,9 +164,9 @@ choke, в случае успешного выполнения, или error, в
 ```
 [chunk, <session-id>,
   [msgpack([
-    ["host", 12345],
-    1,
-    {0: "read",
+    ["host", 12345], // endpoint
+    1,               // protocol version
+    {0: "read",      // method table
      1: "write",
      2: "delete",
      3: "find"}])]]
