@@ -1,9 +1,11 @@
+#+OPTIONS: toc:nil 
 #+TODO: TODO(t) | DONE(d)
 #+TODO: REPORT(r) BUG(b) KNOWNCAUSE(k) | FIXED(f)
 #+TODO: | CANCELED(c)
+#+TODO: | INPROGRESS(i)
 #+STARTUP: logdone
 
-* DONE Intro [5/6]
+* DONE [[file:intro.md][Intro]] [5/5]
 
 - [X] Actor Model
 - [X] Cocaine Messages and Actors
@@ -11,7 +13,7 @@
 - [X] Locator
 - [X] Apps and Services
 
-* TODO Setup Overview [6/7]
+* TODO [[file:setup-overview.md][Setup Overview]] [6/7]
 - [-] Big Picture [1/2]
   - [ ] diagram
   - [X] description
@@ -23,7 +25,7 @@
 - [X] ElasticSearch cluster
 
 
-* TODO Processes Overview [2/3]
+* TODO [[file:processes-overview.md][Processes Overview] [2/3]
 ** DONE Regular deployment process [2/2]
 *** DONE process isolate [5/5]
 - [X] upload
@@ -52,7 +54,7 @@
 - [ ] at Node
 - [ ] at Worker
 
-* TODO Services Overview [0/7]
+* TODO [[file:services-overview.md][Services Overview]] [0/7]
 ** TODO Recap Of Basic Notions
 ** TODO Logging
 ** TODO Storage
@@ -69,7 +71,7 @@
 - [ ] logger
 
 
-* TODO Technical Details [0/5]
+* TODO [[file:technical-details.md][Technical Details]] [0/5]
 
 ** TODO Frameworks
 *** TODO Worker lifecycle
@@ -86,14 +88,7 @@
 
 ** TODO IPVS plugin
 
-* TODO Docker lifecycle quick overview
-- [ ] pull
-- [ ] run
-- [ ] commit
-- [ ] push
-- [ ] Dockerfile
-
-* DONE APE.sh Details [3/3]
+* DONE [[file:ape-details.md][APE.sh Details]] [3/3]
 ** DONE buildstep (basic container)
 ** DONE heroku-buildpack-nodejs
 ** DONE ape [7/7]
@@ -105,36 +100,42 @@
 - [X] stop
 - [X] delete
 
+
+* TODO [[file:docker-overview.md][Docker lifecycle quick overview]]
+- [ ] pull
+- [ ] run
+- [ ] commit
+- [ ] push
+- [ ] Dockerfile
+
 * TODO NodeJS [0/3]
 
-** TODO Framework [0/2]
+** TODO [[file:nodejs-framework.md][Framework]] [1/2]
 
-*** TODO Overview
-*** TODO Reference
-- [ ] FSM
-- [ ] Worker Details
-- [ ] Client Details
+*** DONE Overview 
+*** TODO Reference [4/6]
+- [X] FSM
+- [X] Sessions
+- [X] Worker Details
+- [X] Client Details
 - [ ] Service
-- [ ] Sessions
 - [ ] Service wrappers
 
 
-** TODO Development Environment [0/4]
+** TODO [[file:nodejs-development-environment][development Environment]] [0/4]
 *** TODO cocaine-vagrant
 *** TODO building on linux
 *** TODO building on os x
 *** TODO setting up nginx and rewrites
 
-** TODO Examples, Guides and Best Practices [0/9]
+** TODO [[file:nodejs-guildes.md][Examples, Guides and Best Practices]] [0/9]
 *** TODO simple app
 *** TODO use simple service: storage
 *** TODO use infrastructure services
 *** TODO use services from within your app
 *** TODO use app as a service
 *** TODO watching your logs
-
 *** TODO Best Practice: Logging
 *** TODO Best Practice: handling client errors
 *** TODO Best Practice: handling worker lifecycle events
-
 

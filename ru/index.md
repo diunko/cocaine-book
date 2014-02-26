@@ -59,13 +59,14 @@
 
 ## NodeJS
 
-### [Framework](nodejs-framework.md)
+### NodeJS Framework
 
-#### Overview
+#### [Overview](nodejs-framework-overview.md) [en]
 
-#### Worker Details
-#### Client Details
-#### Service
+#### [Detailed description](nodejs-framework-detailed.md) [en]
+##### Worker Details
+##### Client Details
+##### Service
 
 
 ### [Development Environment](nodejs-development-environment.md)
