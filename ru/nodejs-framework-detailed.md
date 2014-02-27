@@ -3,13 +3,13 @@
 
 ### Overview
 
-To be a complying `Worker` and a `Client`, we need several things to
+To be a complying `Worker` or a `Client`, we need several things to
 do. These things are done in layers, separated by concerns they are
 dealing wiht.
 
 
 #### Channel
-The first is transport layer, let's call it channel. It's responsibility is
+The first is a transport layer, let's call it a channel. It's responsibility is
 to deal with transport-level issues: message framing and
 decoding. This is done in C++ binding. It connects to unix or tcp
 socket, and sends/receives cocaine-framed messages.
@@ -17,7 +17,7 @@ socket, and sends/receives cocaine-framed messages.
 This layer's task is to read arrived data from socket, decode it, and
 when a complete message is received, pass it up to the upper
 layer. The same thing for messages coming downward from upper layer:
-it stores them to buffer, and writes to socket.
+it stores them to buffer, and feeds it's buffer gradually to the socket.
 
 #### Worker, Client
 
@@ -52,8 +52,8 @@ promise-based, and other forms.
 #### Worker wrappers
 
 To facilitate http applications portability between cloud and regular
-environments, there is layer, that emulates behavior of incoming
-network connections, that can be passed to regular node.js http
+environments, there is a layer, that emulates a behavior of incoming
+network connections. This layer's things can be passed to regular node.js http
 server. For this layer to work, some support from http module is
 needed, so it works with slightly patched standard node.js http
 module.
@@ -122,8 +122,8 @@ recieved from cocaine-runtime, which indicates some terminate
 condition, usually it says "this instance of worker has to be shut
 down". `code` is either `normal` or `abnormal`, `message` is some
 human-readable string relevant to condition of termination. See
-[worker-lifecycle](worker-lifecycle.md) for details on termination
-conditions.
+[worker-lifecycle](technical-details.md#worker-lifecycle) for details
+on termination conditions.
 
 ##### Message callbacks, RPC
 `handle.on_invoke(sid, eventName)` is called on invoke message, which
